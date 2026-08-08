@@ -1,4 +1,4 @@
-name: Read Repository Variable
+name: Read Repository Variable iN rEPO
 
 on:
   workflow_dispatch:
