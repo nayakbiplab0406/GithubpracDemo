@@ -1,1 +1,13 @@
+name: Read Repository Variable
 
+on:
+  workflow_dispatch:
+
+jobs:
+  demo:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Read repository variable
+        run: |
+          echo "Application name: ${{ vars.PROJECT_ID}}"
